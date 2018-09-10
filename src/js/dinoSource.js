@@ -44,9 +44,9 @@ function acdDB(){
 	idtab = "academic";
 	hdr = "Academic";
 	arrDB = [
-		[2,3,4,5],
-		[0,1,2,3],
-		[1,2,3,4]
+		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', na],
+		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', na],
+		['Jurnal Online LIPI', 'http://www.jurnal.lipi.go.id/', 'LIPI', na],
 	];
 	
 	showTable(arrDB, idtab, hdr);
