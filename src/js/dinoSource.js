@@ -7,6 +7,7 @@ Terus nanti hdr di tiadain. Tinggal ganti sama idtab cuma di caps di first lette
 var na = "N/A";
 var un = "Unknown";
 var cn = "Common";
+var itil = "It is local!";
 
 
 function dwnDB(){
@@ -32,7 +33,7 @@ function redDB(){
 		['The News Manual',	'https://www.thenewsmanual.net/', un, na],
 		['Geoff Lawrence', 'https://geofflawrence.com', un, na],
 		['Project Euler', 'https://projecteuler.net', un , na],
-		['Sekolah Koding', 'https://sekolahkoding.com', un, na],
+		['Sekolah Koding', 'https://sekolahkoding.com', un, itil],
 		['HackDesign', 'https://hackdesign.org/', un, na],
 		['Feynman Lectures', 'https://www.feynmanlectures.caltech.edu', un, na],
 	];
@@ -44,9 +45,9 @@ function acdDB(){
 	idtab = "academic";
 	hdr = "Academic";
 	arrDB = [
-		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', na],
-		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', na],
-		['Jurnal Online LIPI', 'http://www.jurnal.lipi.go.id/', 'LIPI', na],
+		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', itil],
+		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', itil],
+		['Jurnal Online LIPI', 'http://www.jurnal.lipi.go.id/', 'LIPI', itil],
 	];
 	
 	showTable(arrDB, idtab, hdr);
