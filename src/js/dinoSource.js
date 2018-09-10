@@ -6,7 +6,7 @@ Terus nanti hdr di tiadain. Tinggal ganti sama idtab cuma di caps di first lette
 
 var na = "N/A";
 var un = "Unknown";
-var cn = "Common";
+var dbt = "Dino's Beloved Team";
 var itil = "It is local!";
 
 
@@ -27,15 +27,15 @@ function redDB(){
 	idtab = "read";
 	hdr = "Online-Only";
 	arrDB = [
-		['W3Schools', 'https://w3schools.com', un, na],
-		['Codecademy', 'https://codecademy.com', un, na],
+		['W3Schools', 'https://w3schools.com', 'Refsnes Data', na],
+		['Codecademy', 'https://codecademy.com', 'Ryzac Inc.', na],
 		['Tavmjong', 'https://tavmjong.free.fr', 'Tavmjong Bah', na],
 		['The News Manual',	'https://www.thenewsmanual.net/', un, na],
-		['Geoff Lawrence', 'https://geofflawrence.com', un, na],
+		['Geoff Lawrence', 'https://geofflawrence.com', 'Geoff Lawrence', na],
 		['Project Euler', 'https://projecteuler.net', un , na],
-		['Sekolah Koding', 'https://sekolahkoding.com', un, itil],
+		['Sekolah Koding', 'https://sekolahkoding.com', 'Sekolah Koding', itil],
 		['HackDesign', 'https://hackdesign.org/', un, na],
-		['Feynman Lectures', 'https://www.feynmanlectures.caltech.edu', un, na],
+		['Feynman Lectures', 'https://www.feynmanlectures.caltech.edu', 'CalTech', na],
 	];
 	
 	showTable(arrDB, idtab, hdr);
