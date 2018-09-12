@@ -6,9 +6,21 @@ Terus nanti hdr di tiadain. Tinggal ganti sama idtab cuma di caps di first lette
 
 var na = "N/A";
 var un = "Unknown";
+var og = "On Going"
 var dbt = "Dino's Beloved Team";
 var itil = "It is local!";
 
+
+function islamDB(){
+	idtab = "islam";
+	hdr = "Islam";
+	arrDB = [
+		['IslamHouse', 'https://islamhouse.com/', 'Islam House', na],
+		['SunnahOnline', 'http://sunnahonline.com', 'Sunnah Online', na],
+	];
+	
+	showTable(arrDB, idtab, hdr);
+}
 
 function dwnDB(){
 	idtab = "downloadable";
@@ -28,6 +40,7 @@ function redDB(){
 	hdr = "Online-Only";
 	arrDB = [
 		['W3Schools', 'https://w3schools.com', 'Refsnes Data', na],
+		['TutorialsPoint', 'https://www.tutorialspoint.com/', 'Tutorials Point', na],
 		['Codecademy', 'https://codecademy.com', 'Ryzac Inc.', na],
 		['Tavmjong', 'https://tavmjong.free.fr', 'Tavmjong Bah', na],
 		['The News Manual',	'https://www.thenewsmanual.net/', un, na],
@@ -35,7 +48,7 @@ function redDB(){
 		['Project Euler', 'https://projecteuler.net', un , na],
 		['Sekolah Koding', 'https://sekolahkoding.com', 'Sekolah Koding', itil],
 		['HackDesign', 'https://hackdesign.org/', un, na],
-		['Feynman Lectures', 'https://www.feynmanlectures.caltech.edu', 'CalTech', na],
+		['Feynman Lectures', 'https://www.feynmanlectures.caltech.edu', 'California Institute of Technology', na],
 	];
 	
 	showTable(arrDB, idtab, hdr);
@@ -44,6 +57,18 @@ function redDB(){
 function acdDB(){
 	idtab = "academic";
 	hdr = "Academic";
+	arrDB = [
+		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', itil],
+		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', itil],
+		['Jurnal Online LIPI', 'http://www.jurnal.lipi.go.id/', 'LIPI', itil],
+	];
+	
+	showTable(arrDB, idtab, hdr);
+}
+
+function annDB(){
+	idtab = "annual";
+	hdr = "Annual Free Local Course/Training/Certification";
 	arrDB = [
 		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', itil],
 		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', itil],
