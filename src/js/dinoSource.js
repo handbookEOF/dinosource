@@ -17,6 +17,8 @@ function islamDB(){
 	arrDB = [
 		['IslamHouse', 'https://islamhouse.com/', 'Islam House', na],
 		['SunnahOnline', 'http://sunnahonline.com', 'Sunnah Online', na],
+		['ClearQuran', 'https://www.clearquran.com/', 'Talal Itani', na	],
+		['The Islamic Bulletin', 'http://www.islamicbulletin.org', un, na	],
 	];
 	
 	showTable(arrDB, idtab, hdr);
@@ -73,6 +75,16 @@ function annDB(){
 		['Garba Rujukan Digital', 'http://garuda.ristekdikti.go.id/', 'KEMENRISTEK DIKTI', itil],
 		['Neliti', 'https://www.neliti.com/id/', 'Neliti Pty Ltd.', itil],
 		['Jurnal Online LIPI', 'http://www.jurnal.lipi.go.id/', 'LIPI', itil],
+	];
+	
+	showTable(arrDB, idtab, hdr);
+}
+
+function toolDB(){
+	idtab = "tools";
+	hdr = "Free Tools";
+	arrDB = [
+		['Image Map', 'https://www.image-map.net/', un, na],
 	];
 	
 	showTable(arrDB, idtab, hdr);

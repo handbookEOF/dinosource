@@ -4,7 +4,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta >
+		<meta name="theme-color" content="#1a1a1a">
 
 		<link rel="icon" href="res/img/egg-of-dino-ico.png" type="image/png"/>
 
@@ -33,11 +33,11 @@
 						</li>
 						</ul>
 						<ul class="navbar-nav ml-5 pl-5">
-							<li class="nav-item">
-								<a class="nav-link" href="index.html">Home</a>
-							</li>
 							<li class="nav-item active">
-								<a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Download</a>
@@ -48,8 +48,8 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="#">Localization</a>
-									<a class="dropdown-item" href="#">Professor Raptor</a>
-									<a class="dropdown-item" href="#">Printable</a>
+									<!-- a class="dropdown-item" href="#">Professor Raptor</a -->
+									<!-- a class="dropdown-item" href="#">Printable</a -->
 									<a class="dropdown-item" href="#">Guardian</a>
 								</div>
 							</li>
@@ -73,7 +73,7 @@
 		<footer>
 			<div class="container">
 				<div class="col-sm-12">
-					<p class="text-center"><a href="https://twitter.com/handbookeof" target="_blank">@handbookeof</a> &copy; 2018</p>
+					<p class="text-center"><!-- a href="https://twitter.com/handbookeof" target="_blank">@handbookeof</a --> &copy; 2018</p>
 				</div>
 			</div>
 		</footer>
@@ -86,6 +86,7 @@
 		<!-- JQuery Script Custom-->
 		<script>
 			$(document).ready(function(){
+				$('.dino-table').addClass('table-responsive');
 				$('.dino-table > table').addClass('table table-striped table-dark');
 				//var tlink = $( ".dino-table table tbody tr td:nth-child(2)").text();
 				$( ".dino-table table tbody tr td:nth-child(2)" ).each(function(){
