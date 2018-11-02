@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 		<link rel="stylesheet" href="/assets/css/styles.css">
 
-		<title>Home</title>
+		<title>About</title>
 	</head>
 
 	<body>
@@ -28,11 +28,11 @@
 						<ul id="headNav" class="navbar-nav mr-auto">
 							
 							
-							<li class="nav-item active">
-								<a class="nav-link" href="/" >
-									Home
-								</a>
-							</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/" >
+										Home
+									</a>
+								</li>
 							
 							
 							
@@ -102,37 +102,29 @@
 </div>
 
 
-		<div class="container my-5">
-    <div class="row">
-        <div class="col-1 col-sm-1"></div>
-        <div class="col-10 col-sm-10">
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+		<article class="post">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-                <li>
-                    <a class="navbar-brand" href="/"><img src="/assets/images/dinosource-egg-h.png"/></a>
-                </li>
-            </ul>
-            </div>
-        </nav>
-        </div>
-    </div>
-</div>
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
 
-<div class="container">
-<div class="row px-5">
-<div class="col-1 col-sm-1"></div>
-<div class="col-sm-10">
-<h1><strong>Selamat Datang di Dinosource!</strong></h1>
-<p>Dinousource menyediakan berbagai tautan referensi terkait berbagai disiplin ilmu. Yuk, cari informasi yang kamu butuhkan lalu akses sepuasmu. Jelajahi sumbernya, pelajari ilmunya, bagikan manfaatnya!</p>
-</div>
-</div>
-</div>
+  <div class="post-content">
+    This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
+
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
+
+
+[jekyll-organization]: https://github.com/jekyll
+
+  </div>
+
+</article>
 
 		<footer>
 	<div class="container">
