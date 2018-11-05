@@ -23,6 +23,9 @@ p {
 .navbar {
   padding: 0; }
 
+.bg-transparent {
+  border: none; }
+
 .dino-table table a {
   text-decoration: none;
   color: #e8e5d4; }
@@ -52,6 +55,3 @@ p {
 #headNav {
   font-size: 1.3em !important;
   font-weight: 900; }
-
-#dinoHead img {
-  max-width: 800px; }

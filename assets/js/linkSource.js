@@ -107,7 +107,8 @@ function showTable(arr, idt, pr, hdr){
     pc = document.createTextNode(pr);
     p.appendChild(pc);
 	body.appendChild(p);
-	tab = document.createElement('table');
+	resp = document.createElement('div'); // fix responsive table
+	tab = document.createElement('table'); //sebelm table buat div dulu untuk masukin class table-responsive karena paragrafnya ikut ke overflow
 	thead = document.createElement('thead'); //** */
 	tr = document.createElement('tr');
 	th = document.createElement('th');
@@ -140,5 +141,7 @@ function showTable(arr, idt, pr, hdr){
 		tbody.appendChild(tr);
 	}
 	tab.appendChild(tbody);
-	body.appendChild(tab);
+	resp.appendChild(tab); // fix responsive table
+	//body.appendChild(tab);
+	body.appendChild(resp); // fix responsive table
 }
