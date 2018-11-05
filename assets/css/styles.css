@@ -24,7 +24,7 @@ p {
   padding: 0; }
 
 .bg-transparent {
-  border: none; }
+  border: none !important; }
 
 .dino-table table a {
   text-decoration: none;
